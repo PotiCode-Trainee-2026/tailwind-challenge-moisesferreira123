@@ -8,10 +8,10 @@
   </head>
   <body class="min-h-screen bg-[#fafaf9]">
       <header class="fixed z-10 h-16 bg-[#973c00] w-screen flex justify-center border-b border-[#a84402]">
-        <div class="max-w-6xl w-[85%] p-8 flex justify-between items-center">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] xl:p-8 flex justify-between items-center">
           <p class="text-white text-xl font-serif">Grão <span class="text-amber-950">&</span> Co.</p>
           <nav>
-            <ul class="flex gap-6 text-sm text-white">
+            <ul class="sm:flex hidden sm:gap-4 md:gap-5 lg:gap-6 text-sm text-white">
               <li><a class="hover:text-[#fad1b6] transition-colors duration-200" href="#manifest">Manifesto</a></li>
               <li><a class="hover:text-[#fad1b6] transition-colors duration-200" href="#our-grain">Nossos Grãos</a></li>
               <li><a class="hover:text-[#fad1b6] transition-colors duration-200" href="#testimonials">Depoimentos</a></li>
@@ -21,15 +21,15 @@
         </div>
       </header>
       <section id="hero" class="bg-[#fafaf9] w-screen flex justify-center scroll-mt-4">
-        <div class="max-w-6xl w-[85%] min-h-[calc(100vh)] pt-28 pb-16 px-8 flex items-center gap-12">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] min-h-[calc(100vh)] pt-28 pb-16 xl:px-8 flex flex-col xl:flex-row items-center gap-12">
           <article class="space-y-7">
             <p class="uppercase text-xs tracking-[0.2rem] font-medium text-[#973c00]">Torra artesanal · Edição mensal</p>
-            <h1 class="font-serif text-6xl text-stone-900">A pausa que <span class="italic text-[#973c00]">acorda</span> o seu dia.</h1>
+            <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-900">A pausa que <span class="italic text-[#973c00]">acorda</span> o seu dia.</h1>
             <p class="text-lg text-stone-600">Cafés especiais selecionados em pequenas fazendas brasileiras, torrados sob demanda e entregues frescos na sua porta. Uma assinatura feita para quem encontra prazer nos detalhes.</p>
-            <div class="flex gap-8">
+            <div class="flex gap-8 ">
               <a role="button" class="flex px-7 py-3 gap-2 justify-center items-center bg-[#973c00] text-white text-sm transition-colors duration-200 hover:bg-[rgba(151,60,0,0.95)]" href="#subscribe">
                 <span>Conhecer minha assinatura</span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#ffffff"><path d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"/></svg>
+                <svg class="shrink-0" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#ffffff"><path d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"/></svg>
               </a>
               <a role="button" class="px-7 py-3 text-sm text-[#973c00] transition-all duration-200 hover:shadow-[inset_0_-1px_0_0_#973c00]" href="#our-grain">Conhecer os grãos</a>
             </div>
@@ -39,15 +39,15 @@
               <p>CANCELE QUANDO QUISER</p>
             </div>
           </article>
-          <img class="min-w-106 min-h-120 object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="">
+          <img class="min-w-106 min-h-120 object-cover object-center rounded-3xl px-2" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="">
         </div>
       </section>
-      <section id="manifest" class="bg-[#973c00] w-screen flex justify-center scroll-mt-4">
-        <div class="max-w-6xl w-[85%] h-[calc(100vh)] flex items-center gap-24 px-8">
-          <img class="w-104 object-cover" src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=900&q=80" alt="">
+      <section id="manifest" class="bg-[#973c00] w-screen flex lg:flex: justify-center scroll-mt-4">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] min-h-[calc(100vh)] flex lg:flex-row flex-col-reverse items-center gap-12 lg:gap-24 py-16 px-8">
+          <img class="w-120 object-cover rounded-2xl" src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=900&q=80" alt="">
           <article class="space-y-7">
             <p class="text-xs tracking-[0.2rem] text-amber-950 font-medium">NOSSO MANIFESTO</p>
-            <h2 class="font-serif text-5xl text-white">Do terreiro à xícara, <span class="text-amber-950">com nome e sobrenome.</span></h2>
+            <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-white">Do terreiro à xícara, <span class="text-amber-950">com nome e sobrenome.</span></h2>
             <p class="text-lg text-white">Trabalhamos lado a lado com pequenos produtores nas serras de Minas e do Espírito Santo. Pagamos preços justos, valorizamos cada microlote e imprimimos o nome de quem plantou em cada pacote. Café bom é aquele que respeita a terra, o tempo e as mãos que o cultivam.</p>
             <a class="group inline-flex gap-2 items-center py-2 text-sm text-white  shadow-[inset_0_-1px_0_0_#fff] hover:shadow-[inset_0_-1px_0_0_#fad1b6] hover:text-[#fad1b6]" href="#our-grain">
               <span>Conheça nossos produtos</span>
@@ -58,17 +58,17 @@
         </div>
       </section>
       <section id="our-grain" class="bg-[#fafaf9] w-screen flex justify-center scroll-mt-4">
-        <div class="max-w-6xl w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-20 px-8">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-10 md:gap-20 lg:px-8">
           <article class="space-y-7">
             <p class="text-xs tracking-[0.2rem] text-amber-950 font-medium">COLEÇÃO ATUAL</p>
-            <div class="flex justify-between items-end gap-4">
-              <h2 class="font-serif text-5xl text-stone-900 max-w-xl">Três grãos, três histórias, uma razão.</h2>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-4">
+              <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-stone-900 max-w-xl">Três grãos, três histórias, uma razão.</h2>
               <p class="text-stone-600 max-w-sm">Edição limitada da safra 2026. Cada variedade é torrada na semana do envio para preservar aroma e frescor.</p>
             </div>
           </article>
-          <div class="grid grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="flex flex-col">
-              <img class="h-80 w-full object-cover" src="src/assets/bourbon amarelo.jpeg" alt="">
+              <img class="h-80 w-full object-cover rounded-2xl" src="src/assets/bourbon amarelo.jpeg" alt="">
               <div class="flex justify-between items-center mt-4">
                 <h3 class="font-serif text-xl text-stone-900">Serra do Caparaó</h3>
                 <p class="text-xs font-semibold text-amber-950">01</p>
@@ -77,7 +77,7 @@
               <p class="text-sm mt-3 text-stone-600">Notas de caramelo, laranja madura e cacau.</p>
             </div>
             <div>
-              <img class="h-80 w-full object-cover" src="src/assets/catuai_coffee.jpeg" alt="">
+              <img class="h-80 w-full object-cover rounded-2xl" src="src/assets/catuai_coffee.jpeg" alt="">
               <div class="flex justify-between items-center mt-4">
                 <h3 class="font-serif text-xl text-stone-900">Mantiqueira de Minas</h3>
                 <p class="text-xs font-semibold text-amber-950">02</p>
@@ -86,7 +86,7 @@
               <p class="text-sm mt-3 text-stone-600">Corpo aveludado, chocolate amargo e amêndoas.</p>
             </div>
             <div>
-              <img class="h-80 w-full object-cover" src="src/assets/mundo_novo.jpeg" alt="">
+              <img class="h-80 w-full object-cover rounded-2xl" src="src/assets/mundo_novo.jpeg" alt="">
               <div class="flex justify-between items-center mt-4">
                 <h3 class="font-serif text-xl text-stone-900">Cerrado Mineiro</h3>
                 <p class="text-xs font-semibold text-amber-950">03</p>
@@ -98,14 +98,14 @@
         </div>
       </section>
       <section id="testimonials" class="bg-[#973c00] w-screen flex justify-center scroll-mt-4">
-        <div class="max-w-6xl w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-20 px-8">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-14 md:gap-20 lg:px-8">
           <article class="text-white flex flex-col items-center text-center">
             <div class="flex flex-col gap-6 max-w-xl">
               <p class="uppercase text-xs tracking-[0.2rem] font-medium text-amber-950">O que dizem nossos assinantes</p>
-              <h2 class="font-serif text-5xl">Café que <span class="italic text-amber-950">transforma</span> manhãs.</h2>
+              <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl">Café que <span class="italic text-amber-950">transforma</span> manhãs.</h2>
             </div>
           </article>
-          <div class="grid grid-cols-3 gap-8 text-white">
+          <div class="grid sm:grid-cols-3 gap-8 text-white">
             <div class="space-y-6">
               <svg class="text-[#f39c62]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote-icon lucide-quote"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
               <p class="font-serif italic text-xl text-white">“Nunca imaginei que uma xícara de café pudesse ter tanta complexidade. Cada pacote é uma viagem diferente.”</p>
@@ -134,17 +134,17 @@
         </div>
       </section>
       <section id="subscribe" class="bg-[#fafaf9] w-screen flex justify-center scroll-mt-4">
-        <div class="max-w-6xl w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-20 px-8">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] min-h-[calc(100vh)] flex flex-col py-16 gap-14 lg:gap-20 lg:px-8">
           <article class="text-white flex flex-col items-center text-center">
             <div class="flex flex-col gap-6 max-w-2xl">
               <p class="uppercase text-xs tracking-[0.2rem] font-medium text-amber-950">COMO FUNCIONA</p>
-              <h2 class="font-serif text-5xl text-stone-900">Uma assinatura simples, <span class="text-[#973c00] italic">como deve ser.</span></h2>
+              <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-stone-900">Uma assinatura simples, <span class="text-[#973c00] italic">como deve ser.</span></h2>
             </div>
           </article>
-          <div class="grid grid-cols-3 gap-8 text-white">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-white">
             <div class="space-y-3">
               <div class="space-y-6">
-                <p class="font-serif text-[#973c00] text-6xl">01</p>
+                <p class="font-serif text-[#973c00] text-4xl md:text-5xl lg:text-6xl">01</p>
                 <div class="text-[#973c00] flex gap-3 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee-icon lucide-coffee"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>
                   <p class="font-serif text-stone-900 text-xl">Escolha seu perfil</p>
@@ -154,7 +154,7 @@
             </div>
             <div class="space-y-3">
               <div class="space-y-6">
-                <p class="font-serif text-[#973c00] text-6xl">02</p>
+                <p class="font-serif text-[#973c00] text-4xl md:text-5xl lg:text-6xl">02</p>
                 <div class="text-[#973c00] flex gap-3 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf-icon lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
                   <p class="font-serif text-stone-900 text-xl">Torramos para você</p>
@@ -164,7 +164,7 @@
             </div>
             <div class="space-y-3">
               <div class="space-y-6">
-                <p class="font-serif text-[#973c00] text-6xl">03</p>
+                <p class="font-serif text-[#973c00] text-4xl md:text-5xl lg:text-6xl">03</p>
                 <div class="text-[#973c00] flex gap-3 items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package-icon lucide-package"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><polyline points="3.29 7 12 12 20.71 7"/><path d="m7.5 4.27 9 5.15"/></svg>
                   <p class="font-serif text-stone-900 text-xl">Receba todo mês</p>
@@ -188,18 +188,18 @@
         </div>
       </section>
       <footer class="bg-stone-900 w-screen flex flex-col items-center justify-center">
-        <div class="max-w-6xl w-[85%] flex flex-col py-16 gap-20 px-8">
-          <div class="grid grid-cols-12 gap-12">
-            <div class="col-span-5 flex flex-col gap-4 max-w-sm">
+        <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] flex flex-col py-16 gap-20 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-11 xl:grid-cols-12 gap-12">
+            <div class="col-span-1 md:col-span-5 flex flex-col gap-4 max-w-sm">
               <p class="font-serif text-white text-2xl">Grão <span class="text-amber-500">&</span> Co.</p>
               <p class="text-stone-400">Cafés especiais, torrados sob demanda e entregues com o cuidado de quem acredita que cada xícara conta uma história.</p>
               <div class="flex gap-5 text-stone-400">
-                <button class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram size-5" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></button>
-                <button class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook size-5" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></button>
-                <button class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter size-5" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></button>
+                <a role="button" target="_blank" href="https://www.instagram.com/moisesferr123/" class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram size-5" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a>
+                <a role="button" target="_blank" href="https://www.facebook.com/moises.ferreira.7792" class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook size-5" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                <a role="button" target="_blank" href="https://x.com/?lang=pt" class="hover:text-amber-500 cursor-pointer transition-colors duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter size-5" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
               </div>
             </div>
-            <div class="space-y-5 col-span-2">
+            <div class="space-y-5 col-span-1 md:col-span-2">
               <p class="text-xs text-stone-500">LOJA</p>
               <ul class="flex flex-col gap-3 text-sm text-white">
                 <li><a href="#our-grain" class="hover:text-amber-500 cursor-pointer transition-colors duration-200">Nossos grão</a></li>
@@ -208,7 +208,7 @@
                 <li><a href="#hero" class="hover:text-amber-500 cursor-pointer transition-colors duration-200">Acessórios</a></li>
               </ul>
             </div>
-            <div class="space-y-5 col-span-2">
+            <div class="space-y-5 col-span-1 md:col-span-2">
               <p class="text-xs text-stone-500">EMPRESA</p>
               <ul class="flex flex-col gap-3 text-sm text-white">
                 <li><a href="#manifest" class="hover:text-amber-500 cursor-pointer transition-colors duration-200">Manifesto</a></li>
@@ -217,7 +217,7 @@
                 <li><a href="#hero" class="hover:text-amber-500 cursor-pointer transition-colors duration-200">Diário</a></li>
               </ul>
             </div>
-            <div class="space-y-5 col-span-3">
+            <div class="space-y-5 col-span-1 md:col-span-2 xl:col-span-3">
               <p class="text-xs text-stone-500">CONTATO</p>
               <ul class="flex flex-col gap-3 text-sm text-stone-400">
                 <li class="hover:text-amber-500 cursor-pointer transition-colors duration-200">ola@graoeco.com.br</li>
@@ -228,9 +228,9 @@
           </div>
         </div>
         <div class="border-t border-stone-800 w-screen flex justify-center">
-          <div class="max-w-6xl w-[85%] flex justify-between items-center py-5 px-8 text-stone-500 text-xs">
+          <div class="max-w-6xl w-[95%] sm:w-[90%] lg:w-[85%] flex justify-between items-center py-5 lg:px-8 text-stone-500 text-xs">
             <p>© 2026 Grão & Co. Torrado com cuidado no Brasil.</p>
-            <div class="flex items-center gap-5">
+            <div class="flex items-center gap-2 md:gap-5">
               <a class="hover:text-amber-500 cursor-pointer transition-colors duration-200" href="#hero">Privacidade</a>
               <a class="hover:text-amber-500 cursor-pointer transition-colors duration-200" href="#hero">Termos</a>
             </div>
